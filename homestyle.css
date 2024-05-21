@@ -1,0 +1,108 @@
+header {
+    background-color: rgba(0,0,0,0.4);
+    height: 250px;
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.searchbar input{
+    position: relative;
+    bottom: -120px;
+    padding-left: 20px;
+    margin-left: 50px;
+    height: 40px;
+    width: 400px;
+    background-color: rgba(255,255,255,.6);
+    border-radius: 28px;
+    background-image: url('images/searchbaricon.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 30px;
+}
+
+
+a{
+    position: relative;
+    bottom: -15px;
+}
+
+li,a{
+    display: inline;
+    color: white;
+    text-decoration: none;
+    text-align: right;
+    margin-right: 20px;
+}
+
+
+nav {
+    background-color: rgba(6,26,59,0.65);
+    height: 58px;
+    text-align: right;
+}
+
+
+body {
+    background-image: url('images/bodyimage.jpg');
+}
+
+p{
+    font-weight: bold;
+    text-align: right;
+    font-size: 0px;
+    color: white;
+    margin-right: 50px;
+    bottom: 50px;
+}
+
+#ads {
+    overflow: hidden;
+}
+
+#ads figure {
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    animation: 10s ads infinite;
+}
+
+#ads figure img {
+    float: left;
+    width:20%;
+}
+
+@keyframes ads {
+    0% {
+      left: 0;
+    }
+    
+    20% {
+      left: 0;
+    }
+   
+    25% {
+      left: -100%;
+    }
+    
+    45% {
+      left: -100%;
+    }
+   
+    50% {
+      left: -200%;
+    }
+   
+    70% {
+      left: -200%;
+    }
+   
+    90% {
+      left: -300%;
+    }
+
+}
